@@ -1,7 +1,7 @@
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: \
- C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.cpp \
- C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.h \
- C:\Users\Yo\Documents\PruebaQt\grafo.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.cpp \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\grafo.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -104,7 +104,7 @@ CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
- C:\Users\Yo\Documents\PruebaQt\ciudad.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\ciudad.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \

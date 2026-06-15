@@ -29,13 +29,7 @@
 			"target_sources",
 			"_qt_internal_finalize_windows_app",
 			"_qt_internal_finalize_executable",
-			"qt6_finalize_target",
-			"_qt_internal_expose_deferred_files_to_ide",
-			"_qt_internal_expose_source_file_to_ide",
-			"qt6_add_translations",
-			"_qt_internal_process_resource",
-			"qt6_add_resources",
-			"__qt_propagate_generated_resource"
+			"qt6_finalize_target"
 		],
 		"files" : 
 		[
@@ -56,9 +50,7 @@
 			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 			"build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake",
 			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
-			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:942:EVAL",
-			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
-			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:844:EVAL"
+			"C:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:942:EVAL"
 		],
 		"nodes" : 
 		[
@@ -323,90 +315,6 @@
 				"file" : 16,
 				"line" : 126,
 				"parent" : 46
-			},
-			{
-				"command" : 19,
-				"file" : 19,
-				"line" : 1,
-				"parent" : 43
-			},
-			{
-				"command" : 18,
-				"file" : 18,
-				"line" : 889,
-				"parent" : 48
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 2249,
-				"parent" : 49
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2324,
-				"parent" : 50
-			},
-			{
-				"command" : 21,
-				"file" : 18,
-				"line" : 922,
-				"parent" : 48
-			},
-			{
-				"command" : 20,
-				"file" : 0,
-				"line" : 419,
-				"parent" : 52
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 2464,
-				"parent" : 53
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 2249,
-				"parent" : 54
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2324,
-				"parent" : 55
-			},
-			{
-				"command" : 18,
-				"file" : 0,
-				"line" : 2533,
-				"parent" : 53
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 2249,
-				"parent" : 57
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2324,
-				"parent" : 58
-			},
-			{
-				"command" : 22,
-				"file" : 0,
-				"line" : 2659,
-				"parent" : 53
-			},
-			{
-				"command" : 13,
-				"file" : 0,
-				"line" : 2199,
-				"parent" : 60
 			}
 		]
 	},
@@ -474,7 +382,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include"
+					"path" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include"
 				},
 				{
 					"backtrace" : 13,
@@ -509,8 +417,7 @@
 				1,
 				2,
 				6,
-				8,
-				14
+				8
 			]
 		}
 	],
@@ -632,8 +539,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				15,
-				16
+				11,
+				12
 			]
 		},
 		{
@@ -643,8 +550,7 @@
 				1,
 				2,
 				6,
-				8,
-				14
+				8
 			]
 		},
 		{
@@ -668,25 +574,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				10,
-				11,
-				13
-			]
-		},
-		{
-			"name" : "Resources",
-			"sourceIndexes" : 
-			[
-				12
+				10
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				17,
-				18,
-				19
+				13
 			]
 		}
 	],
@@ -754,30 +649,6 @@
 			"sourceGroupIndex" : 4
 		},
 		{
-			"backtrace" : 51,
-			"path" : "PruebaQt_es_AR.ts",
-			"sourceGroupIndex" : 4
-		},
-		{
-			"backtrace" : 56,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/PruebaQt_translations.qrc",
-			"sourceGroupIndex" : 5
-		},
-		{
-			"backtrace" : 59,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_es_AR.qm",
-			"sourceGroupIndex" : 4
-		},
-		{
-			"backtrace" : 61,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include/ui_mainwindow.h",
@@ -792,20 +663,8 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_es_AR.qm.rule",
-			"sourceGroupIndex" : 6
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.rule",
-			"sourceGroupIndex" : 6
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/timestamp.rule",
-			"sourceGroupIndex" : 6
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -53,17 +53,16 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Yo\Documents\PruebaQt
+CMAKE_SOURCE_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/PruebaQt.dir/all
-all: CMakeFiles/PruebaQt_lrelease.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,10 +71,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/PruebaQt.dir/clean
-clean: CMakeFiles/PruebaQt_lupdate.dir/clean
-clean: CMakeFiles/update_translations.dir/clean
-clean: CMakeFiles/PruebaQt_lrelease.dir/clean
-clean: CMakeFiles/release_translations.dir/clean
 clean: CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/clean
 clean: CMakeFiles/PruebaQt_autogen.dir/clean
 .PHONY : clean
@@ -88,14 +83,14 @@ CMakeFiles/PruebaQt.dir/all: CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/all
 CMakeFiles/PruebaQt.dir/all: CMakeFiles/PruebaQt_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target PruebaQt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target PruebaQt"
 .PHONY : CMakeFiles/PruebaQt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PruebaQt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PruebaQt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 0
 .PHONY : CMakeFiles/PruebaQt.dir/rule
 
 # Convenience name for target.
@@ -108,124 +103,20 @@ CMakeFiles/PruebaQt.dir/clean:
 .PHONY : CMakeFiles/PruebaQt.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PruebaQt_lupdate.dir
-
-# All Build rule for target.
-CMakeFiles/PruebaQt_lupdate.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lupdate.dir\build.make CMakeFiles/PruebaQt_lupdate.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lupdate.dir\build.make CMakeFiles/PruebaQt_lupdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target PruebaQt_lupdate"
-.PHONY : CMakeFiles/PruebaQt_lupdate.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PruebaQt_lupdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PruebaQt_lupdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-.PHONY : CMakeFiles/PruebaQt_lupdate.dir/rule
-
-# Convenience name for target.
-PruebaQt_lupdate: CMakeFiles/PruebaQt_lupdate.dir/rule
-.PHONY : PruebaQt_lupdate
-
-# clean rule for target.
-CMakeFiles/PruebaQt_lupdate.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lupdate.dir\build.make CMakeFiles/PruebaQt_lupdate.dir/clean
-.PHONY : CMakeFiles/PruebaQt_lupdate.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/update_translations.dir
-
-# All Build rule for target.
-CMakeFiles/update_translations.dir/all: CMakeFiles/PruebaQt_lupdate.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\update_translations.dir\build.make CMakeFiles/update_translations.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\update_translations.dir\build.make CMakeFiles/update_translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target update_translations"
-.PHONY : CMakeFiles/update_translations.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/update_translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/update_translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-.PHONY : CMakeFiles/update_translations.dir/rule
-
-# Convenience name for target.
-update_translations: CMakeFiles/update_translations.dir/rule
-.PHONY : update_translations
-
-# clean rule for target.
-CMakeFiles/update_translations.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\update_translations.dir\build.make CMakeFiles/update_translations.dir/clean
-.PHONY : CMakeFiles/update_translations.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PruebaQt_lrelease.dir
-
-# All Build rule for target.
-CMakeFiles/PruebaQt_lrelease.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lrelease.dir\build.make CMakeFiles/PruebaQt_lrelease.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lrelease.dir\build.make CMakeFiles/PruebaQt_lrelease.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=11 "Built target PruebaQt_lrelease"
-.PHONY : CMakeFiles/PruebaQt_lrelease.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PruebaQt_lrelease.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PruebaQt_lrelease.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-.PHONY : CMakeFiles/PruebaQt_lrelease.dir/rule
-
-# Convenience name for target.
-PruebaQt_lrelease: CMakeFiles/PruebaQt_lrelease.dir/rule
-.PHONY : PruebaQt_lrelease
-
-# clean rule for target.
-CMakeFiles/PruebaQt_lrelease.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lrelease.dir\build.make CMakeFiles/PruebaQt_lrelease.dir/clean
-.PHONY : CMakeFiles/PruebaQt_lrelease.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/release_translations.dir
-
-# All Build rule for target.
-CMakeFiles/release_translations.dir/all: CMakeFiles/PruebaQt_lrelease.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\release_translations.dir\build.make CMakeFiles/release_translations.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\release_translations.dir\build.make CMakeFiles/release_translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target release_translations"
-.PHONY : CMakeFiles/release_translations.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/release_translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/release_translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
-.PHONY : CMakeFiles/release_translations.dir/rule
-
-# Convenience name for target.
-release_translations: CMakeFiles/release_translations.dir/rule
-.PHONY : release_translations
-
-# clean rule for target.
-CMakeFiles/release_translations.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\release_translations.dir\build.make CMakeFiles/release_translations.dir/clean
-.PHONY : CMakeFiles/release_translations.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/PruebaQt_autogen_timestamp_deps.dir
 
 # All Build rule for target.
 CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_autogen_timestamp_deps.dir\build.make CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_autogen_timestamp_deps.dir\build.make CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target PruebaQt_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num= "Built target PruebaQt_autogen_timestamp_deps"
 .PHONY : CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 0
 .PHONY : CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -244,14 +135,14 @@ CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/clean:
 CMakeFiles/PruebaQt_autogen.dir/all: CMakeFiles/PruebaQt_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_autogen.dir\build.make CMakeFiles/PruebaQt_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_autogen.dir\build.make CMakeFiles/PruebaQt_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=10 "Built target PruebaQt_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=7 "Built target PruebaQt_autogen"
 .PHONY : CMakeFiles/PruebaQt_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PruebaQt_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PruebaQt_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 0
 .PHONY : CMakeFiles/PruebaQt_autogen.dir/rule
 
 # Convenience name for target.

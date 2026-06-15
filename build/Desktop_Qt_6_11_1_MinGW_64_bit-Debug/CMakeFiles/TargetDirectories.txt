@@ -1,13 +1,9 @@
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_lupdate.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/update_translations.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_lrelease.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/release_translations.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_autogen_timestamp_deps.dir
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_autogen.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_autogen_timestamp_deps.dir
+C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/PruebaQt_autogen.dir

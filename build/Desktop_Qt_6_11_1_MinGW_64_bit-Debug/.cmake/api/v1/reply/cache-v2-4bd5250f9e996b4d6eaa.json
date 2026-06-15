@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
+			"value" : "c:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -451,7 +451,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -535,7 +535,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Yo/Documents/PruebaQt"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1035,7 +1035,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qtcreator/cmake-helper/qtcreator-project.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1463,7 +1463,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "PruebaQt_IS_TOP_LEVEL",
@@ -1487,7 +1487,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Yo/Documents/PruebaQt"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII"
 		},
 		{
 			"name" : "QTCREATOR_CMAKE_HELPER_DIRECTORY",
@@ -1499,7 +1499,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qtcreator/cmake-helper"
+			"value" : "C:/Users/Usuario/Downloads/CURSADAS 2026 UPE/EDA II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qtcreator/cmake-helper"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -6600,18 +6600,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/Qt/6.11.1/mingw_64/bin/qmake.exe"
-		},
-		{
-			"name" : "QT_TOOL_COMMAND_WRAPPER_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to the wrapper of the tool commands"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/bin/qt_setup_tool_path.bat"
 		},
 		{
 			"name" : "Qt6CoreTools_DIR",

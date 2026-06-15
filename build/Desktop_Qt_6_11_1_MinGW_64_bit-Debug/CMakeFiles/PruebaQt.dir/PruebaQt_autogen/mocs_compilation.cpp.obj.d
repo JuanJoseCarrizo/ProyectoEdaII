@@ -1,7 +1,7 @@
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: \
- C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp \
- C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/Yo/Documents/PruebaQt/mainwindow.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -392,9 +392,9 @@ CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
- C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h \
- C:/Users/Yo/Documents/PruebaQt/grafo.h \
- C:/Users/Yo/Documents/PruebaQt/ciudad.h \
+ C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/sistemagestionlogistico.h \
+ C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/grafo.h \
+ C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/ciudad.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsLineItem \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainterpath.h \

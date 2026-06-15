@@ -22,7 +22,11 @@ public:
     ~MainWindow() override;
 
 private slots:
-    void on_pushButton_5_clicked();
+    void on_pushButton_5_clicked(); // Calcular ruta
+    void on_pushButton_clicked();   // Agregar Ciudad
+    void on_pushButton_2_clicked(); // Agregar Ruta
+    void on_pushButton_3_clicked(); // Cortar Ruta
+    void on_pushButton_4_clicked(); // Mostrar Historial
 
 private:
     Ui::MainWindow *ui;

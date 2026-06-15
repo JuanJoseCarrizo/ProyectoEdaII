@@ -1,6 +1,6 @@
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: \
- C:\Users\Yo\Documents\PruebaQt\mainwindow.cpp \
- C:\Users\Yo\Documents\PruebaQt\mainwindow.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.cpp \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -391,14 +391,15 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
- C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.h \
- C:\Users\Yo\Documents\PruebaQt\grafo.h \
- C:\Users\Yo\Documents\PruebaQt\ciudad.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\grafo.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\ciudad.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsLineItem \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainterpath.h \
- C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include/ui_mainwindow.h \
+ C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/include/ui_mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QAction \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -443,6 +444,7 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabbar.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMenu \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmenubar.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
@@ -457,6 +459,35 @@ CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QToolButton \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtoolbutton.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QInputDialog \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qinputdialog.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsTextItem \
  C:/Qt/6.11.1/mingw_64/include/QtGui/QPen \
- C:/Qt/6.11.1/mingw_64/include/QtGui/QBrush
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QBrush \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QFont \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QAction \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/QPixmap

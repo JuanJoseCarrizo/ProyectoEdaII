@@ -1,6 +1,6 @@
 CMakeFiles/PruebaQt.dir/grafo.cpp.obj: \
- C:\Users\Yo\Documents\PruebaQt\grafo.cpp \
- C:\Users\Yo\Documents\PruebaQt\grafo.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\grafo.cpp \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\grafo.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
