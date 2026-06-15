@@ -10,11 +10,13 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
@@ -45,6 +47,7 @@ public:
     QGraphicsView *graphicsViewMapa;
     QTextEdit *textEditResultado;
     QMenuBar *menubar;
+    QMenu *menuSistema_de_Gestion_Logistica;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -99,14 +102,14 @@ public:
 "border: rounded;"));
         widget_3 = new QWidget(widget_2);
         widget_3->setObjectName("widget_3");
-        widget_3->setGeometry(QRect(10, 40, 401, 81));
+        widget_3->setGeometry(QRect(20, 40, 461, 91));
         widget_3->setStyleSheet(QString::fromUtf8("background-color: #FEFEFE;\n"
 "font: 900 9pt \"Segoe UI Black\";\n"
 "color: black;\n"
 "border-radius: 15px;"));
         ButtonCiudadOrigen = new QToolButton(widget_3);
         ButtonCiudadOrigen->setObjectName("ButtonCiudadOrigen");
-        ButtonCiudadOrigen->setGeometry(QRect(10, 40, 101, 21));
+        ButtonCiudadOrigen->setGeometry(QRect(10, 40, 131, 31));
         ButtonCiudadOrigen->setStyleSheet(QString::fromUtf8("background-color: #FEFEFE;\n"
 "font: 900 9pt \"Segoe UI Black\";\n"
 "color: black;\n"
@@ -133,7 +136,7 @@ public:
 ""));
         pushButton_5 = new QPushButton(widget_3);
         pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setGeometry(QRect(270, 20, 121, 41));
+        pushButton_5->setGeometry(QRect(320, 30, 121, 41));
         pushButton_5->setStyleSheet(QString::fromUtf8("background-color: #29958D;\n"
 "font: 900 9pt \"Segoe UI Black\";\n"
 "color: white;\n"
@@ -143,7 +146,7 @@ public:
 "padding: 5px;"));
         ButtonCiudadDestino = new QToolButton(widget_3);
         ButtonCiudadDestino->setObjectName("ButtonCiudadDestino");
-        ButtonCiudadDestino->setGeometry(QRect(150, 40, 101, 22));
+        ButtonCiudadDestino->setGeometry(QRect(160, 40, 131, 31));
         ButtonCiudadDestino->setStyleSheet(QString::fromUtf8("background-color: #FEFEFE;\n"
 "font: 900 9pt \"Segoe UI Black\";\n"
 "color: black;\n"
@@ -169,11 +172,15 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 22));
+        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menuSistema_de_Gestion_Logistica = new QMenu(menubar);
+        menuSistema_de_Gestion_Logistica->setObjectName("menuSistema_de_Gestion_Logistica");
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
+
+        menubar->addAction(menuSistema_de_Gestion_Logistica->menuAction());
 
         retranslateUi(MainWindow);
 
@@ -183,10 +190,10 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Ruta \303\263ptima", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Rutas cortadas", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Historial", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Configuraci\303\263n", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Agregar ciudad", nullptr));
+        pushButton_2->setText(QCoreApplication::translate("MainWindow", "Agregar ruta", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("MainWindow", "Cortar ruta", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("MainWindow", "Mostrar historial", nullptr));
         ButtonCiudadOrigen->setText(QString());
         label->setText(QCoreApplication::translate("MainWindow", "Or\303\255gen", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Destino", nullptr));
@@ -198,8 +205,9 @@ public:
 "hr { height: 1px; border-width: 0; }\n"
 "li.unchecked::marker { content: \"\\2610\"; }\n"
 "li.checked::marker { content: \"\\2612\"; }\n"
-"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:11.25pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:700; color:#000000;\">Planificaci\303\263n de Ruta \303\223ptima</span></p></body></html>", nullptr));
+        menuSistema_de_Gestion_Logistica->setTitle(QCoreApplication::translate("MainWindow", "Sistema de Gestion Logistica", nullptr));
     } // retranslateUi
 
 };

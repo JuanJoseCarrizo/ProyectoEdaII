@@ -4,22 +4,22 @@
 #include <cstring>
 
 
-
 SistemaLogistico::SistemaLogistico() {
 
-    grafo = new Grafo(10);
+    grafo = new Grafo(15); // Ajustado a 12 para dar soporte holgado a las ciudades
 
     cantidadCiudades=0;
-    capacidadCiudades=10;
+    capacidadCiudades=15;
     ciudades=new Ciudad[capacidadCiudades];
 
     historial = nullptr;
 
     cargarHistorial();
 }
-//Constructor: cuando el sistema arranca, reserva memoria dinámica para un nuevo 
+//Constructor: cuando el sistema arranca, reserva memoria dinámica para un nuevo
 //objeto Grafo que se configura inicialmente para soportar hasta 10 ciudades
 //NO agrada mucho, hay que modificarlo porque se puede desbordar
+
 
 SistemaLogistico::~SistemaLogistico() {
 
@@ -35,45 +35,31 @@ SistemaLogistico::~SistemaLogistico() {
         delete auxiliar;
     }
 }
-//Destructor: cuando el programa se cierra, libera la memoria que ocupaba 
+//Destructor: cuando el programa se cierra, libera la memoria que ocupaba
 //el objeto grafo para evitar fugas de memoria.
 
 
 void SistemaLogistico::cargarMapaInicial()
 {
-    agregarCiudad("Cordoba Capital", 0, 0);
-    agregarCiudad("Villa Carlos Paz", -50, 20);
-    agregarCiudad("Villa Maria", 150, 100);
-    agregarCiudad("Rio Cuarto", 50, 250);
-    agregarCiudad("Bell Ville", 220, 100);
-    agregarCiudad("San Francisco", 350, 50);
-    agregarCiudad("Jesus Maria", 80, -50);
-    agregarCiudad("Alta Gracia", -20, 80);
-    agregarCiudad("Marcos Juarez", 320, 140);
+    cantidadCiudades = 0;
 
-    agregarRuta(0,1,35);
-    agregarRuta(0,2,146);
-    agregarRuta(0,4,200);
-    agregarRuta(0,6,50);
-    agregarRuta(0,7,36);
+    // Sincronizado exacto con las constantes (X, Y) y los ID
+    agregarCiudad("Cordoba Capital", 225.0f, 145.0f);   // ID 0
+    agregarCiudad("Villa Carlos Paz", 195.0f, 147.0f);  // ID 1
+    agregarCiudad("Villa Maria", 310.0f, 210.0f);       // ID 2
+    agregarCiudad("Bell Ville", 365.0f, 215.0f);        // ID 3
+    agregarCiudad("Rio Cuarto", 180.0f, 245.0f);        // ID 4
+    agregarCiudad("San Francisco", 375.0f, 135.0f);     // ID 5
 
-    agregarRuta(1,3,215);
-    agregarRuta(1,7,40);
-
-    agregarRuta(2,3,136);
-    agregarRuta(2,4,63);
-    agregarRuta(2,8,170);
-
-    agregarRuta(4,3,220);
-    agregarRuta(4,5,195);
-    agregarRuta(4,8,100);
-
-    agregarRuta(6,5,320);
-    agregarRuta(6,4,180);
-
-    agregarRuta(8,5,80);
-
-    agregarRuta(7,2,120);
+    // Conexiones con kilómetros reales
+    agregarRuta(1, 0, 35);   // Carlos Paz - Córdoba
+    agregarRuta(0, 2, 146);  // Córdoba - Villa María
+    agregarRuta(0, 3, 200);  // Córdoba - Bell Ville
+    agregarRuta(2, 3, 63);   // Villa María - Bell Ville
+    agregarRuta(2, 4, 136);  // Villa María - Río Cuarto
+    agregarRuta(4, 3, 220);  // Río Cuarto - Bell Ville
+    agregarRuta(4, 1, 215);  // Río Cuarto - Carlos Paz
+    agregarRuta(3, 5, 195);  // Bell Ville - San Francisco
 }
 
 
@@ -85,15 +71,11 @@ void SistemaLogistico::registrarHistorial(
     NodoHistorial* nuevoNodo =
         new NodoHistorial();
 
-    strcpy(
-        nuevoNodo->dato.origen,
-        obtenerNombreCiudad(origen).c_str()
-    );
+    strncpy(nuevoNodo->dato.origen, obtenerNombreCiudad(origen).c_str(), 49);
+    nuevoNodo->dato.origen[49] = '\0';
 
-    strcpy(
-        nuevoNodo->dato.destino,
-        obtenerNombreCiudad(destino).c_str()
-    );
+    strncpy(nuevoNodo->dato.destino, obtenerNombreCiudad(destino).c_str(), 49);
+    nuevoNodo->dato.destino[49] = '\0';
 
     nuevoNodo->dato.distancia =
         resultado.distanciaTotal;
@@ -102,6 +84,7 @@ void SistemaLogistico::registrarHistorial(
 
     historial = nuevoNodo;
 }
+
 
 void SistemaLogistico::guardarHistorial() {
 
@@ -129,6 +112,7 @@ void SistemaLogistico::guardarHistorial() {
     archivo.close();
 }
 
+
 void SistemaLogistico::cargarHistorial() {
 
     std::ifstream archivo("historial.txt");
@@ -151,15 +135,11 @@ void SistemaLogistico::cargarHistorial() {
         NodoHistorial* nuevo =
             new NodoHistorial();
 
-        strcpy(
-            nuevo->dato.origen,
-            origen.c_str()
-        );
+        strncpy(nuevo->dato.origen, origen.c_str(), 49);
+        nuevo->dato.origen[49] = '\0';
 
-        strcpy(
-            nuevo->dato.destino,
-            destino.c_str()
-        );
+        strncpy(nuevo->dato.destino, destino.c_str(), 49);
+        nuevo->dato.destino[49] = '\0';
 
         nuevo->dato.distancia =
             distancia;
@@ -172,73 +152,97 @@ void SistemaLogistico::cargarHistorial() {
     archivo.close();
 }
 
+
 void SistemaLogistico::inicializar() {
-    cargarDatos();
+
+    std::ifstream archivoPrueba("ciudades.dat", std::ios::binary);
+    if (!archivoPrueba.is_open()) {
+        // Si no existe el archivo, creamos todo de cero y lo guardamos
+        cargarMapaInicial();
+        guardarDatos();
+    } else {
+        archivoPrueba.close();
+        // Si el archivo existe, cargamos las ciudades del disco...
+        cargarDatos();
+
+        // Esto evita que el grafo quede vacío
+        agregarRuta(1, 0, 35);
+        agregarRuta(0, 2, 146);
+        agregarRuta(0, 3, 200);
+        agregarRuta(2, 3, 63);
+        agregarRuta(2, 4, 136);
+        agregarRuta(4, 3, 220);
+        agregarRuta(4, 1, 215);
+        agregarRuta(3, 5, 195);
+    }
 }
+
 //Prepara el sistema cuando arranca
-//En este caso, su única tarea es llamar a la función cargarDatos() 
+//En este caso, su única tarea es llamar a la función cargarDatos()
 //para recuperar el mapa guardado en el disco.
 
-void SistemaLogistico::agregarCiudad(std::string nombre, float x, float y) {
-    
-    //si el vector se llena, se tiene que expandir manualmente
-    if (cantidadCiudades == capacidadCiudades) {
-        capacidadCiudades *= 2; //duplicamos la capacidad máxima
-        Ciudad* nuevoArreglo = new Ciudad[capacidadCiudades]; //creamos un arreglo nuevo más grande
 
-        //copiamos todas las ciudades del anterior al nuevo
+void SistemaLogistico::agregarCiudad(std::string nombre, float x, float y) {
+    // Evitamos el DESBORDE duplicando el tamaño
+    if (cantidadCiudades >= capacidadCiudades) {
+        capacidadCiudades *= 2;
+        Ciudad* nuevoArreglo = new Ciudad[capacidadCiudades];
+
         for (int i = 0; i < cantidadCiudades; i++) {
             nuevoArreglo[i] = ciudades[i];
         }
 
-        delete[] ciudades; // destruimos el viejo vector que quedó chico
-        ciudades = nuevoArreglo; // apuntamos al nuevo espacio ampliado
+        delete[] ciudades;
+        ciudades = nuevoArreglo;
+    }
+
+    // Si detectamos que se está volviendo a meter una ciudad duplicada en la carga del .dat, frenamos
+    for (int i = 0; i < cantidadCiudades; i++) {
+        if (ciudades[i].nombre == nombre) {
+            return;
+        }
     }
 
     Ciudad nueva;
-    //Se crea una estructura temporal/auxiliar de tipo Ciudad llamada nueva
-
-    nueva.id = cantidadCiudades;//contador de ciudades
-
+    nueva.id = cantidadCiudades;
     strncpy(nueva.nombre, nombre.c_str(), 49);
-    //strncpy: Copia el texto de nombre dentro del arreglo de caracteres fijo de la estructura Ciudad
     nueva.nombre[49] = '\0';
-    //Se asegura que el último carácter sea el terminador nulo, indicando el fin de la cadena de texto. 
-    //Esto es importante para cuando usemos los archivos binarios despues
-
     nueva.x = x;
     nueva.y = y;
 
-    // se le asigna la nueva ciudad en la última posición libre e incrementamos el contador
     ciudades[cantidadCiudades] = nueva;
     cantidadCiudades++;
-    //queda apuntando al siguiente elemento que marcara el id del proximo
 }
+
 
 void SistemaLogistico::agregarRuta(int origen, int destino, float km) {
     grafo->agregarRuta(origen, destino, km);
 }
-//el sistema logístico no sabe cómo manejar grafos directamente, así que le "delega" el 
+//el sistema logístico no sabe cómo manejar grafos directamente, así que le "delega" el
 //trabajo a su objeto interno grafo usando el operador flecha (->) porque es un puntero
+
 
 void SistemaLogistico::cortarRuta(int origen, int destino) {
     grafo->cortarRuta(origen, destino);
 }
 //igual que el anterior, le pide al grafo que rompa la conexión entre esas dos ciudades en la matriz de adyacencia
 
+
 ResultadoRuta SistemaLogistico::calcularRutaOptima(int origen, int destino) {
     ResultadoRuta resultado = grafo->calcularDijkstra(origen, destino);
     //le pide al grafo que ejecute el Algoritmo de Dijkstra entre el origen y el destino
     //el camino y los kilómetros se guardan en la variable resultado.
 
-    registrarHistorial(origen,destino,resultado);
-     guardarHistorial();
+    // Solo registramos operaciones exitosas para evitar basura en el historial
+    if (resultado.distanciaTotal < 999999.0f) {
+        registrarHistorial(origen, destino, resultado);
+        guardarHistorial();
+    }
     //método para registrar el resultado en la pila historial
-    
+
     return resultado;
     //Finalmente, devuelve el resultado
 }
-
 
 
 void SistemaLogistico::guardarDatos() {
@@ -247,7 +251,7 @@ void SistemaLogistico::guardarDatos() {
     //ofstream (Output File Stream): Se usa exclusivamente para escribir/guardar datos en un archivo (crea el archivo si no existe)
     //Cuando se abre un archivo con fstream, por defecto se maneja en modo .txt
     //pero para guardar estructuras como el struct o la matriz utilizamos el modificador ios::binary
-    
+
     if (!archivo.is_open()) {
         std::cout << "Error al guardar archivo.\n";
         return;
@@ -257,16 +261,17 @@ void SistemaLogistico::guardarDatos() {
         archivo.write(
             reinterpret_cast<const char*>(&ciudades[i]),//reinterpreta al struct como char y le manda por referencia la direccion
             sizeof(Ciudad) //calcula tamaño en bytes de Ciudad
-        );
+            );
         //Al hacer todo esto la ciudad se guarda en el archivo .dat como una copia identica o "foto"
     }
 
-   archivo.close();
+    archivo.close();
 
-   guardarHistorial();
+    guardarHistorial();
 
     std::cout << "Datos guardados correctamente.\n";
 }
+
 
 void SistemaLogistico::cargarDatos() {
     std::ifstream archivo("ciudades.dat", std::ios::binary);
@@ -281,18 +286,18 @@ void SistemaLogistico::cargarDatos() {
 
     // se reinicia el contador de ciudades a 0
     cantidadCiudades = 0;
-   
+
     Ciudad ciudadAuxiliar; //auxiliar para guardar datos que se usan en el bucle que sigue
 
     while (
         archivo.read(
             reinterpret_cast<char*>(&ciudadAuxiliar),
             sizeof(Ciudad)
-        )
-    ) {
+            )
+        ) {
         agregarCiudad(ciudadAuxiliar.nombre, ciudadAuxiliar.x, ciudadAuxiliar.y);
     }
-    //bucle de lectura: archivo.read extrae del archivo el número exacto de bytes 
+    //bucle de lectura: archivo.read extrae del archivo el número exacto de bytes
     //que componen una Ciudad y los vuelca en la variable temporal ciudadAuxiliar
     //Si todo sale bien, mete esa ciudad en el vector ciudades
     //el ciclo se detiene automáticamente cuando se llega al final del archivo (EOF)
@@ -300,10 +305,12 @@ void SistemaLogistico::cargarDatos() {
     archivo.close();
 }
 
+
 void SistemaLogistico::mostrarHistorial() {
 
     std::cout << "\n===== HISTORIAL =====\n";
 
+    // Puntero auxiliar para recorrer la lista enlazada simple sin perder la cabeza original
     NodoHistorial* auxiliar = historial;
 
     while (auxiliar != nullptr) {
@@ -329,13 +336,16 @@ void SistemaLogistico::mostrarHistorial() {
         auxiliar = auxiliar->siguiente;
     }
 }
+
+
 Grafo& SistemaLogistico::getGrafo() {
     return *grafo;
 }
-//Getter: Como grafo es un puntero interno (Grafo*), este método devuelve el objeto 
-//"desapuntado" (utilizando el asterisco *) en forma de referencia (Grafo&), 
-//permitiendo que otras partes del programa interactúen con la matriz sin romper el 
+//Getter: Como grafo es un puntero interno (Grafo*), este método devuelve el objeto
+//"desapuntado" (utilizando el asterisco *) en forma de referencia (Grafo&),
+//permitiendo que otras partes del programa interactúen con la matriz sin romper el
 //encapsulamiento. Esto es para evitar que alguien lo pueda modificar y romperlo
+
 
 std::string SistemaLogistico::obtenerNombreCiudad(int id) {
     //verificamos que el ID sea válido y exista
@@ -345,4 +355,3 @@ std::string SistemaLogistico::obtenerNombreCiudad(int id) {
     return "Ciudad Desconocida";//si no encuentra nada
 
 }
-

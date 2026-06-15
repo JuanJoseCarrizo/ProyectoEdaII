@@ -1,5 +1,5 @@
-C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Yo/Documents/PruebaQt/mainwindow.h \
-  C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/moc_predefs.h \
+C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/mainwindow.h \
+  C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_autogen/moc_predefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
@@ -383,6 +383,6 @@ C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Prueba
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Yo/Documents/PruebaQt/ciudad.h \
-  C:/Users/Yo/Documents/PruebaQt/grafo.h \
-  C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.h
+  C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/ciudad.h \
+  C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/grafo.h \
+  C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/sistemagestionlogistico.h

@@ -1,6 +1,6 @@
 CMakeFiles/PruebaQt.dir/main.cpp.obj: \
- C:\Users\Yo\Documents\PruebaQt\main.cpp \
- C:\Users\Yo\Documents\PruebaQt\mainwindow.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\main.cpp \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -391,9 +391,9 @@ CMakeFiles/PruebaQt.dir/main.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsScene \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsscene.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
- C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.h \
- C:\Users\Yo\Documents\PruebaQt\grafo.h \
- C:\Users\Yo\Documents\PruebaQt\ciudad.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\grafo.h \
+ C:\Users\Usuario\Downloads\CURSADAS\ 2026\ UPE\EDA\ II\proyectoEDAIIgithub\ProyectoEdaII\ciudad.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QGraphicsLineItem \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgraphicsitem.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qpainterpath.h \
@@ -410,7 +410,4 @@ CMakeFiles/PruebaQt.dir/main.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
- C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QLocale \
- C:/Qt/6.11.1/mingw_64/include/QtCore/QTranslator \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtranslator.h
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h

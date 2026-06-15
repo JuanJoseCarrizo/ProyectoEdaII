@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Yo\Documents\PruebaQt
+CMAKE_SOURCE_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -172,58 +172,6 @@ PruebaQt: cmake_check_build_system
 PruebaQt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/build
 .PHONY : PruebaQt/fast
-
-#=============================================================================
-# Target rules for targets named PruebaQt_lupdate
-
-# Build rule for target.
-PruebaQt_lupdate: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PruebaQt_lupdate
-.PHONY : PruebaQt_lupdate
-
-# fast build rule for target.
-PruebaQt_lupdate/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lupdate.dir\build.make CMakeFiles/PruebaQt_lupdate.dir/build
-.PHONY : PruebaQt_lupdate/fast
-
-#=============================================================================
-# Target rules for targets named update_translations
-
-# Build rule for target.
-update_translations: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 update_translations
-.PHONY : update_translations
-
-# fast build rule for target.
-update_translations/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\update_translations.dir\build.make CMakeFiles/update_translations.dir/build
-.PHONY : update_translations/fast
-
-#=============================================================================
-# Target rules for targets named PruebaQt_lrelease
-
-# Build rule for target.
-PruebaQt_lrelease: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PruebaQt_lrelease
-.PHONY : PruebaQt_lrelease
-
-# fast build rule for target.
-PruebaQt_lrelease/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt_lrelease.dir\build.make CMakeFiles/PruebaQt_lrelease.dir/build
-.PHONY : PruebaQt_lrelease/fast
-
-#=============================================================================
-# Target rules for targets named release_translations
-
-# Build rule for target.
-release_translations: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 release_translations
-.PHONY : release_translations
-
-# fast build rule for target.
-release_translations/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\release_translations.dir\build.make CMakeFiles/release_translations.dir/build
-.PHONY : release_translations/fast
 
 #=============================================================================
 # Target rules for targets named PruebaQt_autogen_timestamp_deps
@@ -274,30 +222,6 @@ PruebaQt_autogen/mocs_compilation.s: PruebaQt_autogen/mocs_compilation.cpp.s
 PruebaQt_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.s
 .PHONY : PruebaQt_autogen/mocs_compilation.cpp.s
-
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.obj: build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.obj
-
-# target to build an object file
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj
-
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.i: build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.i
-
-# target to preprocess a source file
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i
-
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.s: build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.s
-
-# target to generate assembly for a file
-build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PruebaQt.dir\build.make CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s
-.PHONY : build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s
 
 grafo.obj: grafo.cpp.obj
 .PHONY : grafo.obj
@@ -409,17 +333,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... PruebaQt_autogen
 	@echo ... PruebaQt_autogen_timestamp_deps
-	@echo ... PruebaQt_lrelease
-	@echo ... PruebaQt_lupdate
-	@echo ... release_translations
-	@echo ... update_translations
 	@echo ... PruebaQt
 	@echo ... PruebaQt_autogen/mocs_compilation.obj
 	@echo ... PruebaQt_autogen/mocs_compilation.i
 	@echo ... PruebaQt_autogen/mocs_compilation.s
-	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.obj
-	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.i
-	@echo ... build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.s
 	@echo ... grafo.obj
 	@echo ... grafo.i
 	@echo ... grafo.s

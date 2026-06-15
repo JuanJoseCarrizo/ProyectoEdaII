@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Yo\Documents\PruebaQt
+CMAKE_SOURCE_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PruebaQt.dir/depend.make
@@ -68,107 +68,80 @@ include CMakeFiles/PruebaQt.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PruebaQt.dir/flags.make
 
-PruebaQt_es_AR.qm: C:/Qt/6.11.1/mingw_64/bin/lrelease.exe
-PruebaQt_es_AR.qm: C:/Users/Yo/Documents/PruebaQt/PruebaQt_es_AR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating PruebaQt_es_AR.qm"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug
-	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.11.1/mingw_64/bin/lrelease.exe C:/Users/Yo/Documents/PruebaQt/PruebaQt_es_AR.ts -qm C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/PruebaQt_es_AR.qm
-
-.qt/rcc/qrc_PruebaQt_translations.cpp: PruebaQt_es_AR.qm
-.qt/rcc/qrc_PruebaQt_translations.cpp: .qt/rcc/PruebaQt_translations.qrc
-.qt/rcc/qrc_PruebaQt_translations.cpp: C:/Qt/6.11.1/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running rcc for resource PruebaQt_translations"
-	C:\Qt\6.11.1\mingw_64\bin\rcc.exe --output C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp --name PruebaQt_translations C:/Users/Yo/Documents/PruebaQt/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/PruebaQt_translations.qrc --no-zstd
-
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: PruebaQt_autogen/mocs_compilation.cpp
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.obj -c "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp"
 
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp > CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp" > CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/PruebaQt_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp -o CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\PruebaQt_autogen\mocs_compilation.cpp" -o CMakeFiles\PruebaQt.dir\PruebaQt_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/PruebaQt.dir/main.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
 CMakeFiles/PruebaQt.dir/main.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
-CMakeFiles/PruebaQt.dir/main.cpp.obj: C:/Users/Yo/Documents/PruebaQt/main.cpp
+CMakeFiles/PruebaQt.dir/main.cpp.obj: C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/main.cpp
 CMakeFiles/PruebaQt.dir/main.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PruebaQt.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/main.cpp.obj -MF CMakeFiles\PruebaQt.dir\main.cpp.obj.d -o CMakeFiles\PruebaQt.dir\main.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PruebaQt.dir/main.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/main.cpp.obj -MF CMakeFiles\PruebaQt.dir\main.cpp.obj.d -o CMakeFiles\PruebaQt.dir\main.cpp.obj -c "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\main.cpp"
 
 CMakeFiles/PruebaQt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\main.cpp > CMakeFiles\PruebaQt.dir\main.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\main.cpp" > CMakeFiles\PruebaQt.dir\main.cpp.i
 
 CMakeFiles/PruebaQt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\main.cpp -o CMakeFiles\PruebaQt.dir\main.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\main.cpp" -o CMakeFiles\PruebaQt.dir\main.cpp.s
 
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
-CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: C:/Users/Yo/Documents/PruebaQt/mainwindow.cpp
+CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/mainwindow.cpp
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj -MF CMakeFiles\PruebaQt.dir\mainwindow.cpp.obj.d -o CMakeFiles\PruebaQt.dir\mainwindow.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj -MF CMakeFiles\PruebaQt.dir\mainwindow.cpp.obj.d -o CMakeFiles\PruebaQt.dir\mainwindow.cpp.obj -c "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.cpp"
 
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/mainwindow.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\mainwindow.cpp > CMakeFiles\PruebaQt.dir\mainwindow.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.cpp" > CMakeFiles\PruebaQt.dir\mainwindow.cpp.i
 
 CMakeFiles/PruebaQt.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/mainwindow.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\mainwindow.cpp -o CMakeFiles\PruebaQt.dir\mainwindow.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\mainwindow.cpp" -o CMakeFiles\PruebaQt.dir\mainwindow.cpp.s
 
 CMakeFiles/PruebaQt.dir/grafo.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
 CMakeFiles/PruebaQt.dir/grafo.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
-CMakeFiles/PruebaQt.dir/grafo.cpp.obj: C:/Users/Yo/Documents/PruebaQt/grafo.cpp
+CMakeFiles/PruebaQt.dir/grafo.cpp.obj: C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/grafo.cpp
 CMakeFiles/PruebaQt.dir/grafo.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PruebaQt.dir/grafo.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/grafo.cpp.obj -MF CMakeFiles\PruebaQt.dir\grafo.cpp.obj.d -o CMakeFiles\PruebaQt.dir\grafo.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\grafo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PruebaQt.dir/grafo.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/grafo.cpp.obj -MF CMakeFiles\PruebaQt.dir\grafo.cpp.obj.d -o CMakeFiles\PruebaQt.dir\grafo.cpp.obj -c "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\grafo.cpp"
 
 CMakeFiles/PruebaQt.dir/grafo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/grafo.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\grafo.cpp > CMakeFiles\PruebaQt.dir\grafo.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\grafo.cpp" > CMakeFiles\PruebaQt.dir\grafo.cpp.i
 
 CMakeFiles/PruebaQt.dir/grafo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/grafo.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\grafo.cpp -o CMakeFiles\PruebaQt.dir\grafo.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\grafo.cpp" -o CMakeFiles\PruebaQt.dir\grafo.cpp.s
 
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
-CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: C:/Users/Yo/Documents/PruebaQt/sistemagestionlogistico.cpp
+CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: C:/Users/Usuario/Downloads/CURSADAS\ 2026\ UPE/EDA\ II/proyectoEDAIIgithub/ProyectoEdaII/sistemagestionlogistico.cpp
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj -MF CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.obj.d -o CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj -MF CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.obj.d -o CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.obj -c "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.cpp"
 
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.cpp > CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.cpp" > CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.i
 
 CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\sistemagestionlogistico.cpp -o CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.s
-
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj: CMakeFiles/PruebaQt.dir/flags.make
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj: CMakeFiles/PruebaQt.dir/includes_CXX.rsp
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj: .qt/rcc/qrc_PruebaQt_translations.cpp
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj: CMakeFiles/PruebaQt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj -MF CMakeFiles\PruebaQt.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp.obj.d -o CMakeFiles\PruebaQt.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp.obj -c C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp
-
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp > CMakeFiles\PruebaQt.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp.i
-
-CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp -o CMakeFiles\PruebaQt.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_PruebaQt_translations.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\sistemagestionlogistico.cpp" -o CMakeFiles\PruebaQt.dir\sistemagestionlogistico.cpp.s
 
 # Object files for target PruebaQt
 PruebaQt_OBJECTS = \
@@ -176,8 +149,7 @@ PruebaQt_OBJECTS = \
 "CMakeFiles/PruebaQt.dir/main.cpp.obj" \
 "CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj" \
 "CMakeFiles/PruebaQt.dir/grafo.cpp.obj" \
-"CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj" \
-"CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj"
+"CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj"
 
 # External object files for target PruebaQt
 PruebaQt_EXTERNAL_OBJECTS =
@@ -187,7 +159,6 @@ PruebaQt.exe: CMakeFiles/PruebaQt.dir/main.cpp.obj
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/mainwindow.cpp.obj
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/grafo.cpp.obj
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/sistemagestionlogistico.cpp.obj
-PruebaQt.exe: CMakeFiles/PruebaQt.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_PruebaQt_translations.cpp.obj
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/build.make
 PruebaQt.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
 PruebaQt.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a
@@ -197,7 +168,7 @@ PruebaQt.exe: PruebaQt.exe.manifest
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/linkLibs.rsp
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/objects1.rsp
 PruebaQt.exe: CMakeFiles/PruebaQt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PruebaQt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PruebaQt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PruebaQt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -208,8 +179,7 @@ CMakeFiles/PruebaQt.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\PruebaQt.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/PruebaQt.dir/clean
 
-CMakeFiles/PruebaQt.dir/depend: .qt/rcc/qrc_PruebaQt_translations.cpp
-CMakeFiles/PruebaQt.dir/depend: PruebaQt_es_AR.qm
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Yo\Documents\PruebaQt C:\Users\Yo\Documents\PruebaQt C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug C:\Users\Yo\Documents\PruebaQt\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles\PruebaQt.dir\DependInfo.cmake "--color=$(COLOR)"
+CMakeFiles/PruebaQt.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug" "C:\Users\Usuario\Downloads\CURSADAS 2026 UPE\EDA II\proyectoEDAIIgithub\ProyectoEdaII\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\CMakeFiles\PruebaQt.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/PruebaQt.dir/depend
 

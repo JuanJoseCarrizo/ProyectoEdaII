@@ -59,7 +59,7 @@ color: white;
 border-radius: 10px;</string>
      </property>
      <property name="text">
-      <string>Ruta óptima</string>
+      <string>Agregar ciudad</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_2">
@@ -78,7 +78,7 @@ color: white;
 border-radius: 10px;</string>
      </property>
      <property name="text">
-      <string>Rutas cortadas</string>
+      <string>Agregar ruta</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_3">
@@ -97,7 +97,7 @@ color: white;
 border-radius: 10px;</string>
      </property>
      <property name="text">
-      <string>Historial</string>
+      <string>Cortar ruta</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_4">
@@ -116,7 +116,7 @@ color: white;
 border-radius: 10px;</string>
      </property>
      <property name="text">
-      <string>Configuración</string>
+      <string>Mostrar historial</string>
      </property>
     </widget>
     <widget class="QWidget" name="widget_2" native="true">
@@ -135,10 +135,10 @@ border: rounded;</string>
      <widget class="QWidget" name="widget_3" native="true">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>20</x>
         <y>40</y>
-        <width>401</width>
-        <height>81</height>
+        <width>461</width>
+        <height>91</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -152,8 +152,8 @@ border-radius: 15px;</string>
         <rect>
          <x>10</x>
          <y>40</y>
-         <width>101</width>
-         <height>21</height>
+         <width>131</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -215,8 +215,8 @@ color: black;
       <widget class="QPushButton" name="pushButton_5">
        <property name="geometry">
         <rect>
-         <x>270</x>
-         <y>20</y>
+         <x>320</x>
+         <y>30</y>
          <width>121</width>
          <height>41</height>
         </rect>
@@ -237,10 +237,10 @@ padding: 5px;</string>
       <widget class="QToolButton" name="ButtonCiudadDestino">
        <property name="geometry">
         <rect>
-         <x>150</x>
+         <x>160</x>
          <y>40</y>
-         <width>101</width>
-         <height>22</height>
+         <width>131</width>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -276,7 +276,7 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#000000;&quot;&gt;Planificación de Ruta Óptima&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
@@ -318,9 +318,15 @@ border-radius: 15px;</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>25</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSistema_de_Gestion_Logistica">
+    <property name="title">
+     <string>Sistema de Gestion Logistica</string>
+    </property>
+   </widget>
+   <addaction name="menuSistema_de_Gestion_Logistica"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

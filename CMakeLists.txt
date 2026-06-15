@@ -23,10 +23,10 @@ qt_add_executable(PruebaQt
         sistemagestionlogistico.h
 )
 
-qt_add_translations(
-    TARGETS PruebaQt
-    TS_FILES PruebaQt_es_AR.ts
-)
+##qt_add_translations(
+##   TARGETS PruebaQt
+##   TS_FILES PruebaQt_es_AR.ts
+##)
 
 target_link_libraries(PruebaQt
     PRIVATE
@@ -46,3 +46,13 @@ qt_generate_deploy_app_script(
     NO_UNSUPPORTED_PLATFORM_ERROR
 )
 install(SCRIPT ${deploy_script})
+
+##hola
+
+configure_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/mapacordoba.jfif"
+    "${CMAKE_CURRENT_BINARY_DIR}/mapacordoba.jfif"
+    COPYONLY
+)
+
+##hola otra vez
