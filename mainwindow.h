@@ -33,6 +33,7 @@ private slots:
     void on_pushButton_2_clicked(); // Agregar Ruta
     void on_pushButton_3_clicked(); // Cortar Ruta
     void on_pushButton_4_clicked(); // Mostrar Historial
+    void on_pushButton_rehabilitar_clicked(); // Restaurar ruta cortada
     //  void on_pushButton_6_clicked();    // Ver mapa de IDs
 
 private:

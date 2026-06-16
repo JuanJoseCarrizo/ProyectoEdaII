@@ -91,7 +91,7 @@ border-radius: 10px;</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
+       <y>320</y>
        <width>121</width>
        <height>41</height>
       </rect>
@@ -317,6 +317,25 @@ border-radius: 15px;</string>
 }</string>
       </property>
      </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_rehabilitar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #1D5657;
+font: 900 9pt &quot;Segoe UI Black&quot;;
+color: white;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Rehabilitar ruta</string>
+     </property>
     </widget>
    </widget>
   </widget>

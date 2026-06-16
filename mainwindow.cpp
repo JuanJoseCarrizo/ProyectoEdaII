@@ -519,3 +519,49 @@ void MainWindow::actualizarAlertasReales() {
 
     ui->textBrowserAlertas->setHtml(contenido);
 }
+
+
+// BOTÓN: REHABILITAR RUTA CORTADA
+void MainWindow::on_pushButton_rehabilitar_clicked()
+{
+    // se muestra la lista de IDs disponibles por seguridad
+    QString guiaIds = "=== GUÍA DE IDs DE CIUDADES ===\n\n";
+    int total = sistema.getCantidadCiudades();
+    for (int i = 0; i < total; i++) {
+        guiaIds += QString::number(i) + " ➔ " + QString::fromStdString(sistema.obtenerNombreCiudad(i)) + "\n";
+    }
+
+    QMessageBox::information(this, "Rehabilitar Ruta", "Verifique los IDs de las ciudades cuya ruta desea habilitar:\n\n" + guiaIds);
+
+    // Se pide los IDs de las ciudades a conectar
+    bool ok;
+    int origen = QInputDialog::getInt(this, "Rehabilitar Ruta",
+                                      "ID Ciudad Origen:", 0, 0, total - 1, 1, &ok);
+    if (!ok) return;
+
+    int destino = QInputDialog::getInt(this, "Rehabilitar Ruta",
+                                       "ID Ciudad Destino:", 1, 0, total - 1, 1, &ok);
+    if (!ok) return;
+
+    // mapeamos las distancias reales originales por si no sabe los km el usuario
+    float km = 100.0f; // este valor de auxilio por si crean ciudades nuevas, aunque no se deberia poner ciudades sin agregar rutas!!!
+
+    // Evaluamos los pares de ciudades de tu red vial fija
+    if ((origen == 1 && destino == 0) || (origen == 0 && destino == 1))      km = 40.0f;  // Carlos Paz - Córdoba
+    else if ((origen == 0 && destino == 2) || (origen == 2 && destino == 0)) km = 145.0f; // Córdoba - Villa María
+    else if ((origen == 0 && destino == 3) || (origen == 3 && destino == 0)) km = 200.0f; // Córdoba - Bell Ville
+    else if ((origen == 2 && destino == 3) || (origen == 3 && destino == 2)) km = 60.0f;  // Villa María - Bell Ville
+    else if ((origen == 2 && destino == 4) || (origen == 4 && destino == 2)) km = 130.0f; // Villa María - Río Cuarto
+    else if ((origen == 4 && destino == 3) || (origen == 3 && destino == 4)) km = 210.0f; // Río Cuarto - Bell Ville
+    else if ((origen == 4 && destino == 1) || (origen == 1 && destino == 4)) km = 230.0f; // Río Cuarto - Carlos Paz
+    else if ((origen == 3 && destino == 5) || (origen == 5 && destino == 3)) km = 110.0f; // Bell Ville - San Francisco
+
+    // manda los km reales al backend para pisar el INF
+    sistema.agregarRuta(origen, destino, km);
+
+    //volvemos a evaluar el mapa y las alertas
+    resetearRutas();           // Vuelve a pintar la línea de color gris que significa que funcionaaa
+    actualizarAlertasReales(); // saca el tramo del panel inferior de emergencias y avisa que ya esta todo oki
+
+    QMessageBox::information(this, "Ruta Rehabilitada", "El tramo vial ha sido restaurado y habilitado correctamente");
+}
